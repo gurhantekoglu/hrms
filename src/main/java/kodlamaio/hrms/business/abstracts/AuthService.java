@@ -7,5 +7,5 @@ import kodlamaio.hrms.entities.concretes.Employer;
 public interface AuthService {
 	Result registerCandidate(Candidate candidate, String confirmPassword);
 
-	Result registerCandidate(Employer employer, String confirmPassword);
+	Result registerEmployer(Employer employer, String confirmPassword);
 }

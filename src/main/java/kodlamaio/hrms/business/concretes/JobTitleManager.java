@@ -5,17 +5,17 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import kodlamaio.hrms.business.abstracts.JobService;
+import kodlamaio.hrms.business.abstracts.JobTitleService;
 import kodlamaio.hrms.dataAccess.abstracts.JobTitleDao;
 import kodlamaio.hrms.entities.concretes.JobTitle;
 
 @Service
-public class JobManager implements JobService {
+public class JobTitleManager implements JobTitleService {
 
 	private JobTitleDao jobDao;
 
 	@Autowired
-	public JobManager(JobTitleDao jobDao) {
+	public JobTitleManager(JobTitleDao jobDao) {
 		super();
 		this.jobDao = jobDao;
 	}

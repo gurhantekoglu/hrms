@@ -28,7 +28,7 @@ public class Candidate extends User {
 	@Column(name = "nationality_id")
 	private String nationalityId;
 
-	@Column(name = "year_of_birth")
-	private LocalDate yearOfBirth;
+	@Column(name = "date_of_birth")
+	private LocalDate dateOfBirth;
 
 }

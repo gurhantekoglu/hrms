@@ -4,6 +4,6 @@ import java.util.List;
 
 import kodlamaio.hrms.entities.concretes.JobTitle;
 
-public interface JobService {
+public interface JobTitleService {
 	List<JobTitle> getAll();
 }
